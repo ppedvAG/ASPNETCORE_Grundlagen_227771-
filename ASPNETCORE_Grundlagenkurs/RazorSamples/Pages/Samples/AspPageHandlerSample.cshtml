@@ -1,0 +1,20 @@
+﻿@page
+@model RazorSamples.Pages.Samples.AspPageHandlerSampleModel
+@{
+}
+
+
+<!-- Allgemeine Post - Methode wird aufgerufen -->
+
+
+<form method="post">
+
+    <input name="eins" />
+    <input name="zwei" />
+
+    <hr />
+
+    <button type="submit">addiere</button>
+
+    @Model.Ergebnis
+</form>

@@ -1,0 +1,12 @@
+﻿@page
+@using ASPNETCORE_IOCSample.Services;
+
+@inject ITimeService timeService;
+
+@model ASPNETCORE_IOCSample.Pages.IOCSamples.Sample4Model
+@{
+}
+
+
+@timeService.GetTime()
+
