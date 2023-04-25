@@ -15,48 +15,48 @@ Modul 0: Was ist ASP.NET Core?
 
 
 Modul 1.0: SOLID 
-- [ ] Solid-Regeln
+- [x] Solid-Regeln
 
 Modul 1.1: IOC Container
-- [ ] Dependency Injections in ASP.NET Core
+- [x] Dependency Injections in ASP.NET Core
 
 Modul 2: ASP.NET Core Grundlagen
-- [ ] Konfigurationen
-- [ ] Logging mit Serilog
+- [x] Konfigurationen
+- [x] Logging mit Serilog
 
 Modul 3: Razor Pages und Template Synatax
-- [ ] Projektstruktur Komplettübersicht
-- [ ] Razor Pages (Part1)
+- [x] Projektstruktur Komplettübersicht
+- [x] Razor Pages (Part1)
     - [ ] Razor Page
     - [ ] Razor Syntax
-    - [ ] QueryString / Route - Paramter an Get-Methode
-    - [ ] Page-Handler 
-    - [ ] Get / Post - Methoden und Konzept
-    - [ ] Tabellen / Formulare
-    - [ ] Asp-Handler
+    - [x] QueryString / Route - Paramter an Get-Methode
+    - [x] Page-Handler 
+    - [x] Get / Post - Methoden und Konzept
+    - [x] Tabellen / Formulare
+    - [x] Asp-Handler
     
 Modul 4: 
 - [ ] Layouts
 - [ ] Bootstrap
 
 Modul 5: EF Core
-- [ ] Entity Framework Core
-- [ ] CodeFirst
-- [ ] DataAnnotations
-- [ ] Scaffolding
-- [ ] InMemory-Database / SqlProvider
+- [x] Entity Framework Core
+- [x] CodeFirst
+- [x] DataAnnotations
+- [x] Scaffolding
+- [x] InMemory-Database / SqlProvider
 
 Modul 5b: Modelvalidierung
-- [ ]  Clientseitige Validierung
-- [ ]  BugFix für Clientseitige Validierung
-- [ ]  Serverseitige Validierung
+- [x]  Clientseitige Validierung
+- [x]  BugFix für Clientseitige Validierung
+- [x]  Serverseitige Validierung
 
 Modul 6: 
-- [ ] Partial Views
-    - [ ] Was ist eine Partial View?
-    - [ ] Implementieren einer einfachen Partial View
-    - [ ] Razor-Syntax Redundanzen mit Partial View beheben 
-    - [ ] Partial View als Optionale View-Erweiterugen 
+- [x] Partial Views
+    - [x] Was ist eine Partial View?
+    - [x] Implementieren einer einfachen Partial View
+    - [x] Razor-Syntax Redundanzen mit Partial View beheben 
+    - [x] Partial View als Optionale View-Erweiterugen 
 
 
 Modul 7:
@@ -80,13 +80,13 @@ Modul 9:
 - [ ] Identity UI 
 
 Modul 10: 
-- [ ] ViewComponents
+- [x] ViewComponents
 - [ ] Lokalisierung 
 
 Modul 11: Erweiterungen in HTML:
-- [ ] TagHelpers
-- [ ] HTMLHelpers
-- [ ] SignalR -> Hannes
+- [x] TagHelpers
+- [x] HTMLHelpers
+- [x] SignalR -> Hannes
 
 
 
