@@ -1,0 +1,53 @@
+﻿@page
+@using Modul004b_RazorPage_with_Objects.Models;
+@model Modul004b_RazorPage_with_Objects.Pages.IntroSamples.SecondSampleModel
+@{
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies.First().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies.First().Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies.First().Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Movies.First().Price)
+            </th>
+
+            <th>
+
+            </th>
+        
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(Movie currentMovie in Model.Movies)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Name);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Description);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Genre);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => currentMovie.Price);
+                </td>
+                <td>
+                    <a asp-page="./ThirdSample_ShowMovieDetailsWithId" asp-route-id="@currentMovie.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

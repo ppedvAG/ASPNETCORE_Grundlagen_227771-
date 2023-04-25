@@ -11,7 +11,7 @@ namespace IOCSample
             IServiceCollection services = new ServiceCollection();
             
             services.AddSingleton<ICar, TestCar>(); //Legen die Klasse 
-
+            services.AddTestCar();
             IServiceProvider serviceProvider = services.BuildServiceProvider(); //Nach BuildServiceProvider ist die Initialisierung - Phase fertig
 
             #endregion
@@ -24,7 +24,7 @@ namespace IOCSample
 
 
             //GetRequiredService liefert eine Exception, wenn im IOC - Container keine ICar gefunden wird
-            ICar car2 = serviceProvider.GetRequiredService<ICar>();
+            ICar car2 = serviceProvider.GetRequiredService<ICar>(); //Exception wenn nichts gefunden wurde
 
             #endregion
 
@@ -75,4 +75,12 @@ namespace IOCSample
     }
 
     #endregion
+
+    public static class MockCarExtention
+    {
+        public static void AddTestCar(this IServiceCollection collection)
+        {
+            collection.AddSingleton<ICar, TestCar>();
+        }
+    }
 }

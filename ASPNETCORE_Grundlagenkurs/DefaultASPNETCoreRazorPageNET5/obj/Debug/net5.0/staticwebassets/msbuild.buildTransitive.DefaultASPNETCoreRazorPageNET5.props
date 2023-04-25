@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DefaultASPNETCoreRazorPageNET5.props" />
+</Project>

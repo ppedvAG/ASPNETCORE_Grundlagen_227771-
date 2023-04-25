@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPages_Advanced.Pages.PartialSample.IndexModel
+@{
+}
+
+<p>Wo wird nach der PartialView gesucht</p>
+<p>InvalidOperationException: The partial view '_abc' was not found. The following locations were searched:</p>
+<p>/Pages/PartialSample/_abc.cshtml</p>
+<p>/Pages/_abc.cshtml</p>
+<p>/Pages/Shared/_abc.cshtml</p>
+<p>/Views/Shared/_abc.cshtml</p>
+
+<partial name="_DateTimePartial" />

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Modul004b_RazorPage_with_Objects.props" />
+</Project>
