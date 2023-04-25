@@ -1,0 +1,19 @@
+﻿@page
+@using RazorPages_Advanced.TagHelpers
+@using RazorPages_Advanced.Models
+@model RazorPages_Advanced.Pages.TagHelperSamples.Sample1Model
+
+
+@{
+    MyPerson person = new()
+    {
+        FirstName = "Alf",
+        LastName = "Melmag"
+    };
+}
+
+@Html.HelloWorldHtmlString();
+<br />
+@Html.HelloWorldToPerson("Otto Walkes")
+<br />
+@Html.HelloWordWithComplexObject(person)

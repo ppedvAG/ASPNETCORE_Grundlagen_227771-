@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\partly_cloudy.png",
+      "PackagePath": "staticwebassets\\images\\partly_cloudy.png"
+    },
+    {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\rain.png",
+      "PackagePath": "staticwebassets\\images\\rain.png"
+    },
+    {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\snow.png",
+      "PackagePath": "staticwebassets\\images\\snow.png"
+    },
+    {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\sunny.png",
+      "PackagePath": "staticwebassets\\images\\sunny.png"
+    },
+    {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\thunderstorm.png",
+      "PackagePath": "staticwebassets\\images\\thunderstorm.png"
+    },
+    {
+      "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\images\\variable.png",
+      "PackagePath": "staticwebassets\\images\\variable.png"
+    },
+    {
       "Id": "C:\\Aktueller Kurs\\ASPNETCORE_Grundlagen_227771-\\ASPNETCORE_Grundlagenkurs\\RazorPages_Advanced\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,0 +1,16 @@
+﻿@page
+@using RazorPages_Advanced.TagHelpers
+@model RazorPages_Advanced.Pages.TagHelperSamples.Sample2Model
+@{
+    WebsiteContext context = new WebsiteContext()
+    {
+        Version = new Version(1, 3),
+        CopyrigthYear = 1999,
+        Approved = true,
+        TagsToShow = 123
+    };
+}
+
+<website-information info="context"/>
+
+
