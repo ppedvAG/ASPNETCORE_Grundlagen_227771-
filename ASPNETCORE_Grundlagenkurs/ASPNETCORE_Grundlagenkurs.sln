@@ -56,6 +56,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Agenda.md = ..\Agenda.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul008_RazorPages_with_EFCore_Relations", "Modul008_RazorPages_with_EFCore_Relations", "{E0480F16-0666-4C84-85C4-FCD5ACB53829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore_with_LazyLoading", "EFCore_with_LazyLoading\EFCore_with_LazyLoading.csproj", "{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,6 +130,10 @@ Global
 		{59845C61-226D-40E9-9DFC-AC58B627041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59845C61-226D-40E9-9DFC-AC58B627041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59845C61-226D-40E9-9DFC-AC58B627041E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,7 @@ Global
 		{D8B162FF-F2FE-458F-A19F-791F5FA64BE0} = {BF0EB1FC-BD36-4A32-97F2-69768DFC6072}
 		{72927B07-F76D-4AC5-99A1-BAC1B511F96B} = {BC40F7CF-284A-45D6-BB71-FE9566EB1D71}
 		{59845C61-226D-40E9-9DFC-AC58B627041E} = {6D833E73-66B4-4EB6-A0D7-E8B144EE14B0}
+		{BA4D23A0-0B1B-4FA4-9421-2F197B6EBF79} = {E0480F16-0666-4C84-85C4-FCD5ACB53829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C34A5979-52C7-4779-8F1F-2AB96B763E64}

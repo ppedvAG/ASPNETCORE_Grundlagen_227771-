@@ -17,7 +17,6 @@ namespace ValidierungsSamples.Models
         [Range(0, 99.99)]
         public decimal Price { get; set; }
 
-
         [ClassicMovie(1960)]
         public int Year { get; set; }
 

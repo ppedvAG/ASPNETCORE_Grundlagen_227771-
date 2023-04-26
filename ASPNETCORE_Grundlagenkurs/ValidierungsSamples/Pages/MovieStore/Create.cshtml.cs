@@ -36,12 +36,13 @@ namespace ValidierungsSamples.Pages.MovieStore
             if(Movie.Title == "The Crow")
             {
                 ModelState.AddModelError("Movie.Title", "Der Film steht auf dem Index");
+                ModelState.AddModelError("General", "Allgemeiner Fehler");
             }
 
 
             if (!ModelState.IsValid || _context.Movie == null || Movie == null)
             {
-                return Page();
+                return Page(); //befüllter Datensatz wrd nochmals angezeigt
             }
 
             _context.Movie.Add(Movie);

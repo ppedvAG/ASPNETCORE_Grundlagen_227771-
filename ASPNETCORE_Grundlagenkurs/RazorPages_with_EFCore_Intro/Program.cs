@@ -4,7 +4,10 @@ using RazorPages_with_EFCore_Intro.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(options =>
+{
+    
+});
 builder.Services.AddDbContext<MovieDbContext>(options =>
 {
     //Provider werden hier festgelegt
@@ -23,7 +26,7 @@ var app = builder.Build();
 //Achtung!!! Wenn man einen Dienst als Scope-Lifetime ablegt, kann man diese in dier Programm.cs nicht direkt auslesen. Wir müssen ServiceProvider.CreateScope verwenden
 //geht nicht -> MovieDbContext myDbContext = app.Services.GetService<MovieDbContext>();
 
-
+//Ist vorgesehen, wenn man Objekte mit dem Lifecycle "Scope" auflösen möchte:
 using (IServiceScope scope = app.Services.CreateScope())
 {
     MovieDbContext ctx = scope.ServiceProvider.GetService<MovieDbContext>();
