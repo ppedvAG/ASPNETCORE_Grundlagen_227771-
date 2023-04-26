@@ -1,0 +1,8 @@
+﻿@page
+@model StateManagement.Pages.TempDataSample3Model
+@{
+    //string filmtitel = TempData["Film"].ToString();
+    
+}
+@*Gebe den Film aus, und verhindere die Löschung aus TempData (man kann nochmals darauf zugreifen)*@
+@TempData.Peek("Film")

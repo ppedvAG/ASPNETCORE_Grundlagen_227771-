@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StateManagement
+build_property.RootNamespace = StateManagement
+build_property.ProjectDir = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_227771-\ASPNETCORE_Grundlagenkurs\StateManagement\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCORE_Grundlagen_227771-\ASPNETCORE_Grundlagenkurs\StateManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/SessionEnde.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vzc2lvbkVuZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/SessionStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vzc2lvblN0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/TempDataSample1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcERhdGFTYW1wbGUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/TempDataSample2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcERhdGFTYW1wbGUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/TempDataSample3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcERhdGFTYW1wbGUzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/TempDataSample4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcERhdGFTYW1wbGU0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/ViewBagSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0JhZ1NhbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/ViewDataSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0RhdGFTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCORE_Grundlagen_227771-/ASPNETCORE_Grundlagenkurs/StateManagement/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sou1te3n04

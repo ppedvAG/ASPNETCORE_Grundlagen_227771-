@@ -1,0 +1,9 @@
+﻿@page
+@model StateManagement.Pages.TempDataSample1Model
+@{
+    string filmtitel = TempData["Film"].ToString();
+    TempData.Keep(); // Vehindere die Lösung oder ander erklärt, wir können ein weiteres Mal auf "Film" zugreifen 
+}
+
+@*erster Zugriff -> Im Normalfall wird danach gelöscht *@
+@filmtitel
